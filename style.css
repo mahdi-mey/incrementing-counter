@@ -3,3 +3,32 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.icon{
+    font-size: 3rem;
+}
+.counter{
+    font-size: 4rem;
+}
+.counter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    gap: 0.6rem;
+}
+.counter-container span{
+    letter-spacing: 4px;
+    text-align: center;
+}
