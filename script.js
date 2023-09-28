@@ -7,7 +7,8 @@ counters.forEach((counter) => {
         const target = +counter.getAttribute('data-target')
         const c = +counter.innerText
 
-        const increment = target / 350
+        // decrement this number so that the counters speed increeses
+        const increment = target / 200
 
         if(c < target){
             counter.innerText = `${Math.ceil(c + increment)}`
